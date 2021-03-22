@@ -34,9 +34,9 @@ $ sudo defragfs <partition or directory> [option]
 Options:
 
 -a  Automatically defrag (configure: $max_fragrate and $max_avgfrags
-    according to your preference).
-	Use this in your crontab. e.g. sudo crontab -e (and add this line)
-	0 0 1 */2 * defragfs / -a
+      according to your preference).
+      Use this in your crontab. e.g. sudo crontab -e (and add this line)
+      0 0 1 */2 * defragfs / -a
 	
 -f  Force defrag if there is at least one fragmented file.
 
