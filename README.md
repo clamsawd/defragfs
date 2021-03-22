@@ -17,16 +17,15 @@ _Dependencies: `perl`, `coreutils`, `e2fsprogs`._
   
   * Open the terminal and type the following comands:
   
-  ```shell
-    
-      $ git clone https://github.com/q3aql/defragfs
-      $ cd defragfs
-      $ sudo make install
-  ````
+ ```shell
+$ git clone https://github.com/q3aql/defragfs
+$ cd defragfs
+$ sudo make install
+ ````
 
 _Note: You must install `git` previously._
       
-### Sintax (defragfs):
+### Syntax (defragfs):
 
   ```shell
 $ sudo defragfs <partition or directory> [option]
@@ -44,7 +43,7 @@ Options:
 
   ````
       
-### Sintax (fragmentation):
+### Syntax (fragmentation):
 
   ```shell
 $ sudo fragmentation <directory>
