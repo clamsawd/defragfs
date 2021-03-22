@@ -8,8 +8,8 @@ defragfs/fragmentation - Linux file-system defragmenter & tool for calculate the
 
 ### Tools:
   
-  * [defragfs](https://github.com/q3aql/defragfs/blob/master/src/defragfs) - File-system defragmenter tool.
-  * [fragmentation](https://github.com/q3aql/defragfs/blob/master/src/fragmentation) - Tool for calculate fragmentation.
+  * [defragfs](https://github.com/q3aql/defragfs-fragmentation/blob/master/src/defragfs) - File-system defragmenter tool.
+  * [fragmentation](https://github.com/q3aql/defragfs-fragmentation/blob/master/src/fragmentation) - Tool for calculate fragmentation.
   
 _Dependencies: `perl`, `coreutils`, `e2fsprogs`._
 
@@ -18,8 +18,8 @@ _Dependencies: `perl`, `coreutils`, `e2fsprogs`._
   * Open the terminal and type the following comands:
   
  ```shell
-$ git clone https://github.com/q3aql/defragfs
-$ cd defragfs
+$ git clone https://github.com/q3aql/defragfs-fragmentation
+$ cd defragfs-fragmentation
 $ sudo make install
  ````
 
